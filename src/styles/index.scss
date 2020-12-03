@@ -1,0 +1,12 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    @include clear-overflow;
+}

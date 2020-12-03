@@ -1,0 +1,11 @@
+@mixin clear-overflow {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+@mixin overflow-ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space:nowrap;
+}
